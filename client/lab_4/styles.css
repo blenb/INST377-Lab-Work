@@ -87,18 +87,18 @@
   
   .footer-item {
     border: 1px solid #fff;
-    background-color: #D6E9FE;
+    background-color: #D6E9FE; 
     height: 200px;
     flex: 1;
   }
   .footer-three {
-    flex: 2;
+    flex: 2; 
   }
   .footer-one,
   .footer-three {
   background-color: #5995DA;
-  flex: initial;
-  width: 300px;
+  flex: initial; 
+  width: 300px; 
   }
  
   .photo-grid-container .carousel_item,
