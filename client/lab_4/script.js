@@ -1,4 +1,9 @@
-
+/* eslint-disable no-plusplus */
+/* eslint-disable prefer-const */
+/* eslint-disable no-restricted-syntax */
+/* eslint-disable func-names */
+/* eslint-disable no-use-before-define */
+/* eslint-disable prefer-arrow-callback */
 let slidePosition = 0;
 const slides = document.querySelectorAll('.carousel_item');
 const totalSlides = slides.length;
@@ -36,6 +41,6 @@ function moveToPrevSlide() {
     slidePosition = totalSlides - 1;
   } else {
     slidePosition--;
-  } 
-  updateSlidePosition(); 
+  }
+  updateSlidePosition();
 }

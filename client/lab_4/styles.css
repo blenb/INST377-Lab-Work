@@ -91,7 +91,7 @@
     height: 200px;
     flex: 1;
   }
-  .footer-three {
+  .footer-three { 
     flex: 2; 
   }
   .footer-one,
@@ -99,7 +99,7 @@
   background-color: #5995DA;
   flex: initial; 
   width: 300px; 
-  }
+  } 
  
   .photo-grid-container .carousel_item,
   .photo-grid-container .carousel_item--hidden {
